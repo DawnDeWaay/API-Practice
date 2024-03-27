@@ -8,4 +8,4 @@ def index():
 
 @app.route('/drinks')
 def index():
-    return "Hello2"
+    return {'drinks': 'drink data'}
